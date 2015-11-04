@@ -11,12 +11,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.indigo-pink.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
     <header class="oldnonine-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__drawer-button mdl-layout--small-screen-only"><i class="material-icons">menu</i></div>
         <div class="mdl-layout__header-row">
             <div class="mdl-layout-title">Old No. 9</div>
             <!-- Add spacer, to align navigation to the right in desktop -->
@@ -37,7 +38,7 @@
 
     <div class="oldnonine-drawer mdl-layout__drawer">
         <span class="mdl-layout-title">
-            <img class="oldnonine-logo-image" src="images/android-logo-white.png">
+            <img class="oldnonine-logo-image" src="images/android-logo.png">
         </span>
         <nav class="mdl-navigation">
             <a class="mdl-navigation__link active" href="">Products</a>
@@ -59,7 +60,7 @@
             <div class="oldnonine-card-container mdl-grid">
 
                 <!-- Card -->
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                <a href="#" class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
                     <div class="mdl-card__media">
                         <img src="images/horse.png">
                     </div>
@@ -69,13 +70,13 @@
                     <div class="mdl-card__supporting-text">
                         <span class="mdl-typography--font-light mdl-typography--subhead">The Pallette M is the most popular product I make.</span>
                     </div>
-                    <div class="mdl-card__actions">
+                    <!-- <div class="mdl-card__actions">
                         <a class="oldnonine-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
                             i want one
                             <i class="material-icons">chevron_right</i>
                         </a>
-                    </div>
-                </div>
+                    </div> -->
+                </a>
 
                 <!-- Card -->
                 <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
@@ -167,7 +168,7 @@
 
     </div>
 </div>
-<script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script>
+<script src="scripts/material.1.0.5.min.js"></script>
 
 </body>
 </html>
